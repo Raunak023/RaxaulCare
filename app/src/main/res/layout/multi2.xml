@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#000000">
+
+    <!-- Header Section -->
+    <TextView
+        android:id="@+id/linea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Header Title"
+        android:textColor="#FFBB86FC"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="8dp" />
+
+    <!-- Subheader Section -->
+    <TextView
+        android:id="@+id/lineb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is a subheading"
+        android:textColor="#FFC107"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="4dp" />
+
+    <!-- Horizontal Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FF6200EE"
+        android:layout_marginVertical="8dp" />
+
+    <!-- Content Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:padding="8dp"
+        android:background="@drawable/rounded_corners">
+
+        <TextView
+            android:id="@+id/linec"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Item A"
+            android:textColor="#FF03DAC5"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/lined"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Item B"
+            android:textColor="#FF03DAC5"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/linee"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="Item C"
+            android:textColor="#FF03DAC5"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:padding="4dp" />
+    </LinearLayout>
+
+    <!-- Footer Section -->
+</LinearLayout>

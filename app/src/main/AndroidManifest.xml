@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RaxaulCare"
+        tools:targetApi="31">
+        <activity
+            android:name=".HealthArticleDetail"
+            android:exported="false" />
+        <activity
+            android:name=".HealthArticle"
+            android:exported="false" />
+        <activity
+            android:name=".BuymedicinebookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".medicinecaart"
+            android:exported="false" />
+        <activity
+            android:name=".cartmedicine"
+            android:exported="false" />
+        <activity
+            android:name=".cartbuymedicineactivity"
+            android:exported="false"
+            android:theme="@style/Theme.RaxaulCare" />
+        <activity
+            android:name=".MedicineDetail"
+            android:exported="false" />
+        <activity
+            android:name=".BuymedicineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".orderdetailactivity"
+            android:exported="false" />
+        <activity
+            android:name=".LabtestBookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Cartlabactivity"
+            android:exported="false" />
+        <activity
+            android:name=".LabtestdetalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LabtestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bookAppoinmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctordetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fiddoctor"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".RegisteredActivity"
+            android:exported="false" />
+        <activity
+            android:name=".loginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
